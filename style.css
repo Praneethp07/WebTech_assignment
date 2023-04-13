@@ -51,10 +51,6 @@ body {
   font-size: 2rem;
   padding: 10px;
 }
-#l1,#l2
-{
-  height: 25rem;
-}
 
 .subContainer{
   display: grid;
@@ -102,13 +98,13 @@ body {
 }
 
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 700px){
   .subContainer{
     grid-template-columns:auto;
   }
   .allImage{
-    height: 20rem;
-    width: 20rem;
+    height: 30rem;
+    width: 30rem;
   }
   .mainListContainer{
     grid-template-columns: auto;
