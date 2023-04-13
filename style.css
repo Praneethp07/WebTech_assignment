@@ -58,7 +58,6 @@ body {
   gap: 10px;
   justify-content: center;
   gap: 20px;
-  
 }
 
 #mumbaiImg{
@@ -103,8 +102,8 @@ body {
     grid-template-columns: auto;
   }
   .allImage {
-    height: 25rem;
-    width: 25rem;
+    height: 40rem;
+    width: 40rem;
   }
   .mainListContainer {
     grid-template-columns: auto;
