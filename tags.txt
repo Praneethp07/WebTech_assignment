@@ -1,0 +1,30 @@
+
+    <link>: links to an external resource, such as a stylesheet.
+
+    <body>: the container for all visible page content, such as text, images, videos, and forms.
+
+    <header>: a section of the page that typically contains the page title, logo, and navigation menu.
+
+    <main>: a section of the page that contains the main content.
+
+    <p>: defines a paragraph of text.
+
+    <h1>: defines a heading with the largest font size.
+
+    <div>: a generic container for grouping elements and applying styles.
+
+    <img>: embeds an image in the document.
+
+    id and class attributes: used to identify and apply styles to specific HTML elements.
+
+    <br>: This tag creates a line break (or a new line) within a paragraph.
+
+    <h1>: This tag defines a heading level 1 and is used to create a large and bold heading.
+
+    <h2>: This tag defines a heading level 2 and is used to create a slightly smaller and less bold heading than <h1>.
+
+    <p>: This tag defines a paragraph and is used to contain text.
+
+    <ul>: This tag defines an unordered list and is used to create a bullet point list.
+
+    <li>: This tag defines a list item and is used to create an individual item within an unordered or ordered list.

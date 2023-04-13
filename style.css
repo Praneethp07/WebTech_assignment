@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(218, 208, 216);
+  }
+  h1,h2,h3 {
+    text-align: center;
+    color: #2f4f4f;
+  }
+  #heading{
+    text-align: center;
+    font-size:8.25rem;
+    color: white;
+  }
+  header{
+    background-color: rgb(107, 10, 96);
+  }
+  p {
+    line-height: 1.5;
+    margin-bottom: 1.5em;
+    padding: 10px;
+    font-size: x-large;
+    font-weight: 500;
+    text-align: center;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+.container{
+  background-color: #deddda;
+  padding:10px;
+  margin:10px 10px 10px 10px;
+  border-radius: 1rem;
+  border: 1px solid black;
+  margin: 50px;
+  width: auto;
+  height: fit-content;
+  object-fit: cover;
+  border-radius: 28px;
+  background: #deddda;
+  box-shadow:  6px 6px 22px #6f6f6d,
+             -6px -6px 22px #ffffff;
+}
+.list li{
+  font-size: 2rem;
+  padding: 10px;
+}
+#l1,#l2
+{
+  height: 25rem;
+}
+
+.subContainer{
+  display: grid;
+  grid-template-columns:auto auto auto;
+  gap: 10px;
+  justify-content: center;
+  gap: 20px;
+  
+}
+
+#mumbaiImg{
+  height: 70rem;
+  width: 100%;
+}
+
+.mainContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 10rem;
+  
+}
+.allImage{
+  height:30rem;
+  width:35rem;
+  border-radius: 1rem;
+  border: 1px solid black;
+  margin-bottom: 20px;
+  border-radius: 28px;
+  background: #deddda;
+  box-shadow:  6px 6px 22px #6f6f6d,
+             -6px -6px 22px #ffffff;
+             z-index: 1;
+             position: relative;
+            top: 5rem;
+  padding: 10px;
+
+}
+.mainListContainer{
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+
+@media only screen and (max-width: 600px),(max-height:800px) {
+  .subContainer{
+    grid-template-columns:auto;
+  }
+  .allImage{
+    height: 20rem;
+    width: 20rem;
+  }
+  .mainListContainer{
+    grid-template-columns: auto;
+  }
+  #heading{
+    font-size: 5rem;
+  }
+}
