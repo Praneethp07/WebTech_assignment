@@ -102,7 +102,7 @@ body {
 }
 
 
-@media only screen and (max-width: 600px),(max-height:800px) {
+@media only screen and (max-width: 600px){
   .subContainer{
     grid-template-columns:auto;
   }
