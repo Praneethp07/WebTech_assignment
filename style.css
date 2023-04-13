@@ -103,8 +103,8 @@ body {
     grid-template-columns:auto;
   }
   .allImage{
-    height: 30rem;
-    width: 30rem;
+    height: 20rem;
+    width: 20rem;
   }
   .mainListContainer{
     grid-template-columns: auto;
