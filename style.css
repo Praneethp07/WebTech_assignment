@@ -98,19 +98,18 @@ body {
 }
 
 
-@media only screen and (max-width: 800px){
-  .subContainer{
-    grid-template-columns:auto;
-  }
-  .allImage{
-    height: 20rem;
-    width: 20rem;
-  }
-  .mainListContainer{
+@media only screen and (max-device-width: 800px) {
+  .subContainer {
     grid-template-columns: auto;
   }
-  #heading{
+  .allImage {
+    height: 25rem;
+    width: 25rem;
+  }
+  .mainListContainer {
+    grid-template-columns: auto;
+  }
+  #heading {
     font-size: 5rem;
-      
   }
 }
